@@ -1,4 +1,4 @@
-# AI Model Benchmark Report: A Comprehensive Analysis ✨
+ # AI Model Benchmark Report: A Comprehensive Analysis ✨
 
 <div align="center">
   <h2>Comparing Leading AI Models</h2>
@@ -12,7 +12,7 @@
 
 ## 🌟 Introduction
 
-Welcome to our **comprehensive benchmark report** showcasing three cutting-edge AI models:
+Welcome to my **comprehensive benchmark report** showcasing three cutting-edge AI models:
 
 1. **ChatGPT-03 Mini High**  
 2. **DeepSeek R1**  
