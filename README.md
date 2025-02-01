@@ -118,20 +118,16 @@ Below are some **practical use cases** aligned with each model’s capabilities:
 
 ---
 
-Below is a **refined** example section that provides a **professional** layout for your test examples. Each model’s output is in its **own** code block or section, making it more organized and easy to navigate.
 
-Feel free to incorporate this directly into your report or README file:
-
----
 
 ```markdown
 ## 5. Test Examples
 
-Here, we provide **two** illustrative scenarios that highlight how each AI model performs under different tasks.
+Here, we provide one **in-depth** scenario highlighting how each AI model tackles a coding task.
 
 ---
 
-### Example 1: Code Generation
+### Example: Code Generation
 
 **Prompt**  
 > *Write a Python function to calculate the factorial of a number.*
@@ -143,9 +139,10 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 ```
-*Key Notes:*  
+**Key Notes**  
 - **Simple Recursive Approach**  
 - **Minimal Error Handling**  
+- Ideal for quick, straightforward tasks
 
 ---
 
@@ -157,9 +154,10 @@ def factorial(n):
         result *= i
     return result
 ```
-*Key Notes:*  
+**Key Notes**  
 - **Iterative Solution**  
-- **Easy to Understand and Optimize**  
+- Easy to debug and optimize  
+- Good balance of clarity and performance
 
 ---
 
@@ -170,59 +168,18 @@ def factorial(n):
         raise ValueError("Input must be a non-negative integer.")
     return 1 if n == 0 else n * factorial(n - 1)
 ```
-*Key Notes:*  
-- **Mixed Recursive Approach with Error Handling**  
-- **Useful for Production-Grade Code**  
+**Key Notes**  
+- **Mixed Recursive Approach** with **Error Handling**  
+- More robust for production contexts  
+- Ensures input validation
+```
+
+### Why This Matters
+
+- **Comparison**: Shows how each model handles the same task differently—recursion, iteration, or added safeguards.  
+- **Suitability**: Helps determine which approach best fits specific use cases (e.g., speed vs. safety).  
+- **Ease of Integration**: Offers insights into how you might adapt each model’s output in real projects.
 
 ---
 
-### Example 2: Multi-Modal Task
-
-**Prompt**  
-> *Analyze the following image and describe its content.*
-
-#### ChatGPT-03 Mini High
-```
-Unable to process images.
-```
-*Key Notes:*  
-- **No built-in image processing**  
-- **Primarily text-based interactions**  
-
----
-
-#### DeepSeek R1
-```
-Unable to process images.
-```
-*Key Notes:*  
-- **Focused on text-only tasks**  
-- **Excellent for logic and coding, but no multi-modal capabilities**  
-
----
-
-#### Qwen 2.5 Max
-```
-The image shows a cat sitting on a windowsill with sunlight streaming in. 
-The background includes a blurred view of trees outside the window.
-```
-*Key Notes:*  
-- **Advanced Multi-Modal Support**  
-- **Accurate and Contextual Visual Description**  
-
----
-
-**Takeaway:**  
-- **ChatGPT-03 Mini High** and **DeepSeek R1** excel in text and logic but do not support image input.  
-- **Qwen 2.5 Max** shines in **multi-modal tasks**, making it ideal for image and other sensory inputs.
-```
-
----
-
-### How This Helps
-
-1. **Clear Organization**: Each model’s response has its own section, with concise code blocks and notes.  
-2. **Professional Presentation**: Subheadings, horizontal rules, and bullet points make the information easy to scan.  
-3. **Deeper Insights**: *Key Notes* underneath each code block provide quick context about each model’s behavior.  
-
-Incorporate or adapt the above **Example** section into your larger report or README for a **polished, professional** look!
+**Use this section** in your README or main report to demonstrate **practical** model outputs without including multi-modal or image-based examples. You can always add further examples—like image processing, data analysis, or text summarization—later.
