@@ -174,12 +174,12 @@ def factorial(n):
 - Ensures input validation
 ```
 
-### Why This Matters
+
+ Why This Matters
 
 - **Comparison**: Shows how each model handles the same task differently—recursion, iteration, or added safeguards.  
 - **Suitability**: Helps determine which approach best fits specific use cases (e.g., speed vs. safety).  
 - **Ease of Integration**: Offers insights into how you might adapt each model’s output in real projects.
 
----
 
-**Use this section** in your README or main report to demonstrate **practical** model outputs without including multi-modal or image-based examples. You can always add further examples—like image processing, data analysis, or text summarization—later.
+
