@@ -118,75 +118,111 @@ Below are some **practical use cases** aligned with each model’s capabilities:
 
 ---
 
-### 5. Test Examples
+Below is a **refined** example section that provides a **professional** layout for your test examples. Each model’s output is in its **own** code block or section, making it more organized and easy to navigate.
 
-#### Example 1: Code Generation
+Feel free to incorporate this directly into your report or README file:
 
-**Input**  
-> Write a Python function to calculate the factorial of a number.
+---
 
-<details>
-<summary><strong>ChatGPT-03 Mini High</strong></summary>
+```markdown
+## 5. Test Examples
 
+Here, we provide **two** illustrative scenarios that highlight how each AI model performs under different tasks.
+
+---
+
+### Example 1: Code Generation
+
+**Prompt**  
+> *Write a Python function to calculate the factorial of a number.*
+
+#### ChatGPT-03 Mini High
 ```python
 def factorial(n):
     if n == 0 or n == 1:
         return 1
     return n * factorial(n - 1)
-</details> <details> <summary><strong>DeepSeek R1</strong></summary>
-python
-Copy
-Edit
+```
+*Key Notes:*  
+- **Simple Recursive Approach**  
+- **Minimal Error Handling**  
+
+---
+
+#### DeepSeek R1
+```python
 def factorial(n):
     result = 1
     for i in range(1, n + 1):
         result *= i
     return result
-</details> <details> <summary><strong>Qwen 2.5 Max</strong></summary>
-python
-Copy
-Edit
+```
+*Key Notes:*  
+- **Iterative Solution**  
+- **Easy to Understand and Optimize**  
+
+---
+
+#### Qwen 2.5 Max
+```python
 def factorial(n):
     if not isinstance(n, int) or n < 0:
         raise ValueError("Input must be a non-negative integer.")
     return 1 if n == 0 else n * factorial(n - 1)
-</details>
-Example 2: Multi-Modal Task
-Input
+```
+*Key Notes:*  
+- **Mixed Recursive Approach with Error Handling**  
+- **Useful for Production-Grade Code**  
 
-Analyze the following image and describe its content.
+---
 
-Output
+### Example 2: Multi-Modal Task
 
-ChatGPT-03 Mini High: Unable to process images
-DeepSeek R1: Unable to process images
-Qwen 2.5 Max: “The image shows a cat sitting on a windowsill with sunlight streaming in. The background includes a blurred view of trees outside the window.”
-6. Graphical Representation
-Accuracy Comparison
+**Prompt**  
+> *Analyze the following image and describe its content.*
 
-matlab
-Copy
-Edit
-Accuracy (%)
-100 |                            
- 90 |                 █ Qwen 2.5 Max (95%)
- 80 |         █ DeepSeek R1 (90%)
- 70 | █ ChatGPT-03 Mini High (85%)
- 60 |
- 50 |
- 40 |
- 30 |
- 20 |
- 10 |
-  0 +--------------------------------->
-       ChatGPT-03    DeepSeek R1    Qwen 2.5 Max
-Interpretation: Qwen 2.5 Max leads in accuracy, followed by DeepSeek R1 and ChatGPT-03 Mini High.
+#### ChatGPT-03 Mini High
+```
+Unable to process images.
+```
+*Key Notes:*  
+- **No built-in image processing**  
+- **Primarily text-based interactions**  
 
-🏆 Conclusion
-After a thorough analysis, here are our core recommendations:
+---
 
-ChatGPT-03 Mini High: Great for lightweight applications where cost and speed are critical.
-DeepSeek R1: A top choice for developer-focused teams and reasoning-heavy tasks.
-Qwen 2.5 Max: Ideal for enterprise-grade, multi-modal, and customizable applications where accuracy is paramount.
-📜 License
-This project is distributed under the MIT License. Feel free to use, modify, and distribute it as needed. A copy of the license terms can be found in the LICENSE file.
+#### DeepSeek R1
+```
+Unable to process images.
+```
+*Key Notes:*  
+- **Focused on text-only tasks**  
+- **Excellent for logic and coding, but no multi-modal capabilities**  
+
+---
+
+#### Qwen 2.5 Max
+```
+The image shows a cat sitting on a windowsill with sunlight streaming in. 
+The background includes a blurred view of trees outside the window.
+```
+*Key Notes:*  
+- **Advanced Multi-Modal Support**  
+- **Accurate and Contextual Visual Description**  
+
+---
+
+**Takeaway:**  
+- **ChatGPT-03 Mini High** and **DeepSeek R1** excel in text and logic but do not support image input.  
+- **Qwen 2.5 Max** shines in **multi-modal tasks**, making it ideal for image and other sensory inputs.
+```
+
+---
+
+### How This Helps
+
+1. **Clear Organization**: Each model’s response has its own section, with concise code blocks and notes.  
+2. **Professional Presentation**: Subheadings, horizontal rules, and bullet points make the information easy to scan.  
+3. **Deeper Insights**: *Key Notes* underneath each code block provide quick context about each model’s behavior.  
+
+Incorporate or adapt the above **Example** section into your larger report or README for a **polished, professional** look!
